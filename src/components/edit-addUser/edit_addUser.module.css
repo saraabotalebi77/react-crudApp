@@ -1,0 +1,56 @@
+.editAddUser{
+    position: fixed;
+    top : 0;
+    background-color : rgba(29, 29, 29, 0.799)
+}
+.formWrapper{
+    background-color: white;
+    border-radius : 1.2rem;
+}
+.fieldsetForm{
+    padding: 1.2rem 1.5rem;
+}
+.headerFormWrapper{
+    position: relative;
+    font-size : 1.8rem;
+    font-weight: 400;
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius : 1.2rem;
+}
+.closeIcon{
+    position: absolute;
+    right : 2rem;
+}
+.inputFormWrapper{
+    font-size : 1.4rem;
+    margin-bottom : 1.5rem;
+}
+.inputForm{
+    border : 1px solid rgb(226, 226, 226); 
+    padding : 0.6rem 0.5rem;
+}
+.emailInput,
+.phoneInput{
+    direction: ltr;
+}
+.formSubmitBtnWrapper{
+    margin-top : 3rem;
+    margin-bottom : 1.5rem;
+}
+.formSubmitBtn{
+    font-size : 1.8rem;
+}
+.toastStyle{
+    font-size:"1.5rem" ;
+    font-family:"Vazir";
+}
+@media (max-width:576px) {
+    .headerFormWrapper,
+    .formSubmitBtn{
+        font-size : 1.5rem;
+    }
+    .inputFormWrapper{
+        font-size : 1.3rem;
+    }
+   
+}

@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "firstName": "sara",
+      "lastName": "abotalebi",
+      "email": "sara@gmail.com",
+      "phoneNumber": "09127530804",
+      "id": 1
+    },
+    {
+      "firstName": "akbar",
+      "lastName": "abotalebi",
+      "email": "akbar@gmail.com",
+      "phoneNumber": "09127530804",
+      "id": 3
+    },
+    {
+      "firstName": "alireza",
+      "lastName": "abotalebi",
+      "email": "alireza@gmail.com",
+      "phoneNumber": "09125361428",
+      "id": 4
+    },
+    {
+      "firstName": "saba",
+      "lastName": "mohammadi",
+      "email": "venovu@mailinator.com",
+      "phoneNumber": "09127530804",
+      "id": 6
+    }
+  ]
+}

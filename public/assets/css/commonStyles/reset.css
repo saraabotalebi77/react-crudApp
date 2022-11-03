@@ -1,0 +1,25 @@
+:root{
+    --body-font-family : Vazir;
+    --primaryColor : rgb(131, 21, 112);
+    --secondaryColor :rgb(255, 10, 71) ;
+    --tertiaryColor : rgb(255, 30, 0);
+}
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+html,
+body{
+    width:100%;
+    overflow-x : hidden;
+}
+html{
+    direction : rtl;
+    scroll-behavior: smooth;
+    font-size : 62.5%;
+}
+body{
+    font-family: Vazir;
+    font-size : 1.8rem;
+}

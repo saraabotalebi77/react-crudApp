@@ -1,0 +1,58 @@
+.showUsersWrapper{
+    box-shadow: 0 7px 8px -2px rgb(175, 175, 175);
+}
+.showUsersTableContainer{
+    overflow-x: auto;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+/* height */
+.showUsersTableContainer::-webkit-scrollbar {
+    height: 0.5rem !important;
+}
+/* Track */
+.showUsersTableContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px orangered; 
+}
+/* Handle */
+.showUsersTableContainer::-webkit-scrollbar-thumb {
+  background: rgb(255, 123, 0);
+}
+table{
+    border-collapse: collapse;
+    min-width : 500px;
+}
+th{
+    font-size : 1.2rem;
+}
+td{
+    font-size : 1.3rem;
+}
+@media (min-width:992px){
+    th{
+        font-size : 1.4rem;
+    }
+    td{
+        font-size : 1.5rem;
+    }
+}
+
+th:first-child{
+    border-top-right-radius : 1.5rem !important;
+}
+th:last-child{
+    border-top-left-radius : 1.5rem !important;
+}
+.deleteUserBtn,
+.editUserBtn{
+    font-size : 2rem;
+}
+.addUserBtn{
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+@media (max-width:576px){
+    .addUserBtn{
+        font-size : 1.2rem;
+    }
+}

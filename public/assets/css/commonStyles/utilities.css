@@ -1,0 +1,75 @@
+.d-flex{
+    display : flex;
+}
+.f-column{
+    flex-direction : column;
+}
+.f-justify-content-center{
+    justify-content: center;
+}
+.f-align-items-center{
+    align-items : center;
+}
+.f-grow-1{
+    flex-grow: 1;
+}
+.gap-5{
+    gap : 0.5rem;
+}
+.f-family-vazir{
+    font-family : Vazir
+}
+.text-center{
+    text-align : center;
+}
+.text-white{
+    color : #fff;
+}
+.bg-primary{
+    background-color: var(--primaryColor);
+}
+.bg-secondary{
+    background-color: var(--secondaryColor);
+}
+.bg-tertiary{
+    background-color: var(--tertiaryColor);
+}
+.m-h100vh{
+    min-height : 100vh;
+}
+.w-100{
+    width : 100%;
+}
+.outline-0{
+    outline: none;
+}
+.border-0{
+    border : none
+}
+.py-12{
+    padding-top : 1.2rem;
+    padding-bottom : 1.2rem;
+}
+.px-12{
+    padding-right : 1.2rem;
+    padding-left : 1.2rem;
+}
+.p-0{
+    padding : 0;
+}
+.p-5{
+    padding : 0.5rem;
+}
+.px-5{
+    padding-left : 0.5rem;
+    padding-right : 0.5rem;
+}
+.cursor-pointer{
+    cursor : pointer;
+}
+.rounded-3{
+    border-radius : 0.3rem;
+}
+.rounded-15{
+    border-radius : 1.5rem;
+}
