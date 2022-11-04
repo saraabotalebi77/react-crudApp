@@ -3,7 +3,7 @@ const url_server = "http://localhost:9000/";
 
 // @desc -> get users
 // @route -> http://localhost:9000/users 
-export const getUsers = async()=>{
+export const getUsers = ()=>{
     const url = `${url_server}users`;
     try{
         return fetch(url,{

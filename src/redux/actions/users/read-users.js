@@ -4,7 +4,7 @@ export const READ_USERS_ACTION = ()=>{
     return async dispatch=>{
         try{
             const response = await getUsers();
-            if(response.state==200){
+            if(response.status==200){
                 const data = await response.json();
                 await dispatch({
                     type:READ_USERS,
