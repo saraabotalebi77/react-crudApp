@@ -1,32 +1,3 @@
 {
-  "users": [
-    {
-      "firstName": "sara",
-      "lastName": "abotalebi",
-      "email": "sara@gmail.com",
-      "phoneNumber": "09127530804",
-      "id": 1
-    },
-    {
-      "firstName": "Brynne",
-      "lastName": "Morse",
-      "email": "jesaha@mailinator.com",
-      "phoneNumber": "09127530804",
-      "id": 16
-    },
-    {
-      "firstName": "Odette",
-      "lastName": "Blair",
-      "email": "hyveliva@mailinator.com",
-      "phoneNumber": "09127530804",
-      "id": 23
-    },
-    {
-      "firstName": "Thor",
-      "lastName": "Rowland",
-      "email": "luko@mailinator.com",
-      "phoneNumber": "09127530804",
-      "id": 24
-    }
-  ]
+  "users": []
 }
