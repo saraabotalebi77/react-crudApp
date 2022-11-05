@@ -47,9 +47,9 @@ export const formikFunction = (dispatch,users,usersIndex)=>{
                 phoneNumber :users[usersIndex]?.phoneNumber || "",
             },
             validationSchema:userSchema,
-            onSubmit :(values)=>{
+            onSubmit :(values,{resetForm})=>{
                 submitHandler(values,dispatch,usersIndex);
-                values = {};
+                resetForm({values:""});
             }
         }
     )

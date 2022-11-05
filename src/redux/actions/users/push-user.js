@@ -1,5 +1,6 @@
 import {PUSH_USER, UNSHOW_ADD_EDIT_PAGE} from './../actionTypes.js';
 import {postUser} from '../../../serverServices/serverServices';
+import {toast } from 'react-toastify';
 import styles from './../../../components/edit-addUser/edit_addUser.module.css';
 export const PUSH_USER_ACTION = (user)=>{
     return async(dispatch,getState)=>{
@@ -8,6 +9,16 @@ export const PUSH_USER_ACTION = (user)=>{
             const response = await postUser(user);
             const data = await response.json();
             if(response.status==201){
+                toast.success(<p className={styles.toastStyle}>کاربر اضافه شد </p>, {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                    });
                 // create deepcopy from users state and push new user to cloned users
                 const users = [...getState().users];
                 users.push(data);
@@ -15,9 +26,6 @@ export const PUSH_USER_ACTION = (user)=>{
                 await dispatch({
                     type: PUSH_USER,
                     payload:users,
-                })
-                await dispatch({
-                    type: UNSHOW_ADD_EDIT_PAGE,
                 })
             }
         }catch(error){
